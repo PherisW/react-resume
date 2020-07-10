@@ -2,7 +2,7 @@
     "name": "@welovedevs/react-ultimate-resume",
     "version": "1.0.4",
     "description": "Developer profile for W3D",
-    "homepage": "https://PherisW.github.io/react-ultimate-resume/",
+    "homepage": "https://PherisW.github.io/react-resume/",
     "main": "lib/index.js",
     "scripts": {
         "start": "touch .env.local && sh -ac 'sh .env.${NODE_ENV:-local}; PORT=${PORT:-3000} EXTEND_ESLINT=true BROWSER=none react-scripts start'",
