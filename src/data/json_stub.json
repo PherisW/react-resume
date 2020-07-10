@@ -62,13 +62,11 @@
     ],
     "education": [
         {
-            "institution": "ISEN",
-            "area": "Software Development",
-            "studyType": "Engineer Degree",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "institution": "Cartersville Highschool",
+            "area": "General studies",
+            "studyType": "Highscool Diploma",
+            "endDate": "2012-01-01",
+            "gpa": "4.0"
         },
         {
             "institution": "Université d'artois",
@@ -111,27 +109,27 @@
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
-            "name": "NodeJS",
+            "name": "Raspberry Pi",
             "level": "Master",
-            "value": 40,
+            "value": 30,
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
-            "name": "Firebase",
+            "name": "Github",
             "level": "Master",
-            "value": 60,
+            "value": 50,
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
-            "name": "Gmail",
+            "name": "Git",
             "level": "Master",
             "value": 20,
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
-            "name": "K8S",
+            "name": "SQLite",
             "level": "Master",
-            "value": 80,
+            "value": 40,
             "keywords": ["HTML", "CSS", "Javascript"]
         }
     ],
@@ -171,7 +169,7 @@
     "specific": {
         "basics": {
             "visaSponsorship": false,
-            "personalDescription": "This is a longer description of me, of my backstory, my backyard, my backfire, my backend, my frontend and my friends."
+            "personalDescription": "I was born and raised in Georgia. I grew up in a stable home around computers and technology. While I loved video games, I realized early what I loved about video games was the ability to teach players how to problem solve and increase the challenges of the problems. With that mindset, I learned basic scripting languages and moved onto Python and SQLite and other languages to learn how to build software and get a better understanding of technology and its value in our everyday life."
         },
         "dreamJob": {
             "locations": [
@@ -187,12 +185,12 @@
         "currentJob": {
             "issues": { "boring_management": true, "boring_team": true }
         },
-        "education": { "studiesLevel": 4 },
+        "education": { "studiesLevel": 0 },
         "work": {
             "contractTypes": ["permanent"],
-            "codingYears": 8,
+            "codingYears": 10,
             "codingReason": "Started coding to help with game development but became interested in building projects.",
-            "searchState": "activelySearching",
+            "searchState": "openOpportunities",
             "experienceYears": 6
         },
         "sound": {
@@ -221,5 +219,4 @@
                 "customDateFormat": "YYYY"
             }
         }
-    }
-}
+        "theme":{"palette":{"primary":{"50":"#ecf8f7","100":"#d9f1ef","200":"#b2e3df","300":"#8cd4cf","400":"#65c6bf","500":"#3fb8af","600":"#32938c","700":"#266e69","800":"#194a46","900":"#0d2523","contrastDefaultColor":"light"},"secondary":{"50":"#f2f9f7","100":"#e5f4ef","200":"#cce9df","300":"#b2ddcf","400":"#99d2bf","500":"#7fc7af","600":"#669f8c","700":"#4c7769","800":"#335046","900":"#192823","contrastDefaultColor":"light"},"tertiary":{"50":"#fbfbf6","100":"#f8f7ed","200":"#f0efdc","300":"#e9e8ca","400":"#e1e0b9","500":"#dad8a7","600":"#aead86","700":"#838264","800":"#575643","900":"#2c2b21","contrastDefaultColor":"light"}}}}}
