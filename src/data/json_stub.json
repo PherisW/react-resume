@@ -67,15 +67,6 @@
             "studyType": "Highscool Diploma",
             "endDate": "2012-01-01",
             "gpa": "4.0"
-        },
-        {
-            "institution": "Université d'artois",
-            "area": "",
-            "studyType": "",
-            "startDate": "2011-01-01",
-            "endDate": "",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
         }
     ],
     "awards": [
@@ -219,4 +210,4 @@
                 "customDateFormat": "YYYY"
             }
         }
-        "theme":{"palette":{"primary":{"50":"#ecf8f7","100":"#d9f1ef","200":"#b2e3df","300":"#8cd4cf","400":"#65c6bf","500":"#3fb8af","600":"#32938c","700":"#266e69","800":"#194a46","900":"#0d2523","contrastDefaultColor":"light"},"secondary":{"50":"#f2f9f7","100":"#e5f4ef","200":"#cce9df","300":"#b2ddcf","400":"#99d2bf","500":"#7fc7af","600":"#669f8c","700":"#4c7769","800":"#335046","900":"#192823","contrastDefaultColor":"light"},"tertiary":{"50":"#fbfbf6","100":"#f8f7ed","200":"#f0efdc","300":"#e9e8ca","400":"#e1e0b9","500":"#dad8a7","600":"#aead86","700":"#838264","800":"#575643","900":"#2c2b21","contrastDefaultColor":"light"}}}}}
+        }}
