@@ -1,0 +1,225 @@
+{
+    "basics": {
+        "name": "Brandon McDowell",
+        "label": "Programmer, Designer",
+        "picture": "https://i.imgur.com/SxMcJk4.jpg",
+        "email": "brandontmcdowell@protonmail.com",
+        "phone": "(678) 200-8562",
+        "website": "http://johndoe.com",
+        "summary": "A summary of who I am",
+        "location": {
+            "address": "1415 Christine Ave",
+            "postalCode": "AL 36207",
+            "city": "Anniston",
+            "countryCode": "US",
+            "region": "Alabama"
+        },
+        "profiles": [
+            {
+                "network":"Github",
+                "username": "PherisW",
+                "url": "https://github.com/PherisW"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Home Depot ",
+            "position": "Department Supervisor",
+            "website": "http://www.homedepot.com",
+            "startDate": "2017-04-01",
+            "summary": "Department Supervisor and currently Key-Carrier",
+            "location": "Oxford, Alabama",
+            "highlights": ["Started as part-time freight associate"]
+        },
+        {
+            "name": "Home Depot",
+            "position": "Recieving Associate",
+            "startDate": "2018-07-01",
+            "endDate": "2019-10-20",
+            "summary": "Full time Recieving Associate",
+            "location": "Oxford, Alabama",
+            "highlights": [""]
+        },
+        {
+            "name": "Home Depot",
+            "position": "Frieght Associate",
+            "startDate": "2017-07-01",
+            "endDate": "2018-11-01",
+            "summary": "Part time Frieght Associate",
+            "location": "Oxford, Alabama",
+            "highlights": [""]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Street Store",
+            "position": "Volunteer",
+            "website": "http://www.thestreetstore.org/",
+            "endDate": "2015-06-01",
+            "summary": "Clothing store for the Homeless."
+        }
+    ],
+    "education": [
+        {
+            "institution": "ISEN",
+            "area": "Software Development",
+            "studyType": "Engineer Degree",
+            "startDate": "2011-01-01",
+            "endDate": "2013-01-01",
+            "gpa": "4.0",
+            "courses": ["DB1101 - Basic SQL"]
+        },
+        {
+            "institution": "Université d'artois",
+            "area": "",
+            "studyType": "",
+            "startDate": "2011-01-01",
+            "endDate": "",
+            "gpa": "4.0",
+            "courses": ["DB1101 - Basic SQL"]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "website": "http://publication.com",
+            "summary": "Description..."
+        }
+    ],
+    "skills": [
+        {
+            "name": "Byond",
+            "level": "Advanced",
+            "value": 80,
+            "keywords": ["HTML", "CSS", "Javascript"]
+        },
+        {
+            "name": "Python",
+            "level": "Intermidiate",
+            "value": 60,
+            "keywords": ["HTML", "CSS", "Javascript"]
+        },
+        {
+            "name": "NodeJS",
+            "level": "Master",
+            "value": 40,
+            "keywords": ["HTML", "CSS", "Javascript"]
+        },
+        {
+            "name": "Firebase",
+            "level": "Master",
+            "value": 60,
+            "keywords": ["HTML", "CSS", "Javascript"]
+        },
+        {
+            "name": "Gmail",
+            "level": "Master",
+            "value": 20,
+            "keywords": ["HTML", "CSS", "Javascript"]
+        },
+        {
+            "name": "K8S",
+            "level": "Master",
+            "value": 80,
+            "keywords": ["HTML", "CSS", "Javascript"]
+        }
+    ],
+    "languages": [{ "language": "English", "value": 100, "fluency": "Native speaker" }],
+    "interests": [
+        {
+            "name": "Video Games",
+            "gifUrl": "https://media.giphy.com/media/AhhGtrpj5ZxGZER5yC/giphy.gif"
+        },
+        {
+            "name": "Calisthenics",
+            "gifUrl": "https://media.giphy.com/media/M2s68FE3wjDZm/giphy.gif"
+        },
+        {
+            "name": "Coding Projects",
+            "gifUrl": "https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif"
+        },
+        {
+            "name": "Music",
+            "gifUrl": "https://media.giphy.com/media/nIAdXLs0ylpvy/giphy.gif"
+        },
+        {
+            "name": "Home Automation",
+            "gifUrl": "https://media.giphy.com/media/g4sCZhKykg1z2/giphy.gif"
+        }
+    ],
+    "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
+    "projects": [
+        {
+            "name": "Pokemon Astral",
+            "description": "A fanmade Pokemon Game!\nDeveloped in mostly BYOND language, it is heavily inspired by GAMEFREAK. It has an original Story and Characters, Character Customization, and Multiplayer. Still in progress as it is a hobby prject between two developers.🚀",
+            "images": [{"url":"https://cdn.discordapp.com/attachments/522200572082913308/578286908384346112/unknown.png"},{"url":"https://cdn.discordapp.com/attachments/522200572082913308/581911442429837336/yO6gcKA0J6.gif"},{"url":"https://cdn.discordapp.com/attachments/522200572082913308/540217760723107840/2019-01-30_11-07-51.gif"}],
+            "id":"3885d517-0b7d-43e3-af5c-411df504ea46",
+            "date":"2019-06-10T00:02:35.030Z","index":0,"endDate":"2019-06-09"
+        }
+    ],
+    "specific": {
+        "basics": {
+            "visaSponsorship": false,
+            "personalDescription": "This is a longer description of me, of my backstory, my backyard, my backfire, my backend, my frontend and my friends."
+        },
+        "dreamJob": {
+            "locations": [
+                { "name": "Valenciennes, France" },
+                { "name": "Lille, France" },
+                { "name": "Paris,France" },
+                { "name": "Paris,France" },
+                { "name": "Lille, France" },
+                { "name": "Valenciennes, France" }
+            ],
+            "remoteFrequency": "regularly"
+        },
+        "currentJob": {
+            "issues": { "boring_management": true, "boring_team": true }
+        },
+        "education": { "studiesLevel": 4 },
+        "work": {
+            "contractTypes": ["permanent"],
+            "codingYears": 8,
+            "codingReason": "Started coding to help with game development but became interested in building projects.",
+            "searchState": "activelySearching",
+            "experienceYears": 6
+        },
+        "sound": {
+            "embedUrl":"https://open.spotify.com/embed/playlist/1ETPTzRRrg34RmHIyAbT7y?si=aRlCOb3AQdug3LIsswDPyQ"
+        },
+        "interestedBy": "Home Automation, Cryptography, and Open Source Projects."
+    },
+    "resumeCustomization": {
+        "imageHeader": {
+            "url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
+            "alt": "Default Banner"
+        },
+        "cardsOrder": [
+            { "type": "basics", "variant": 4 },
+            { "type": "projects", "variant": 4 },
+            { "type": "skills", "variant": 0 },
+            { "type": "studies", "variant": 4 },
+            { "type": "experiences", "variant": 4 },
+            { "type": "gifs", "variant": 0 },
+            { "type": "interestedBy", "variant": 3 },
+            { "type": "profiles", "variant": 4 },
+            { "type": "soundtrack", "variant": 4 }
+        ],
+        "fields": {
+            "work": {
+                "customDateFormat": "YYYY"
+            }
+        }
+    }
+}
