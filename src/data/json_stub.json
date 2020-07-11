@@ -27,7 +27,7 @@
             "name": "Home Depot ",
             "position": "Department Supervisor",
             "website": "http://www.homedepot.com",
-            "startDate": "2017-04-01",
+            "startDate": "2019-10-20",
             "summary": "Department Supervisor and currently Key-Carrier",
             "location": "Oxford, Alabama",
             "highlights": ["Started as part-time freight associate"]
@@ -127,8 +127,8 @@
     "languages": [{ "language": "English", "value": 100, "fluency": "Native speaker" }],
     "interests": [
         {
-            "name": "Video Games",
-            "gifUrl": "https://media.giphy.com/media/AhhGtrpj5ZxGZER5yC/giphy.gif"
+          "name": "Home Automation",
+          "gifUrl": "https://media.giphy.com/media/g4sCZhKykg1z2/giphy.gif"            
         },
         {
             "name": "Calisthenics",
@@ -143,15 +143,15 @@
             "gifUrl": "https://media.giphy.com/media/nIAdXLs0ylpvy/giphy.gif"
         },
         {
-            "name": "Home Automation",
-            "gifUrl": "https://media.giphy.com/media/g4sCZhKykg1z2/giphy.gif"
+            "name": "Video Games",
+            "gifUrl": "https://media.giphy.com/media/AhhGtrpj5ZxGZER5yC/giphy.gif"
         }
     ],
     "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
     "projects": [
         {
             "name": "Pokemon Astral",
-            "description": "A fanmade Pokemon Game!\nDeveloped in mostly BYOND language, it is heavily inspired by GAMEFREAK. It has an original Story and Characters, Character Customization, and Multiplayer. Still in progress as it is a hobby prject between two developers.🚀",
+            "description": "A fanmade Pokemon Game!\nDeveloped in mostly BYOND language, it is heavily inspired by GAMEFREAK. It has an original Story and Characters, Character Customization, and Multiplayer. Still in progress as it is a hobby project between two developers.🚀",
             "images": [{"url":"https://cdn.discordapp.com/attachments/522200572082913308/578286908384346112/unknown.png"},{"url":"https://cdn.discordapp.com/attachments/522200572082913308/581911442429837336/yO6gcKA0J6.gif"},{"url":"https://cdn.discordapp.com/attachments/522200572082913308/540217760723107840/2019-01-30_11-07-51.gif"}],
             "id":"3885d517-0b7d-43e3-af5c-411df504ea46",
             "date":"2019-06-10T00:02:35.030Z","index":0,"endDate":"2019-06-09"
