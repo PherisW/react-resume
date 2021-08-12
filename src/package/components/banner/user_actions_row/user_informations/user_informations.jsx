@@ -1,7 +1,7 @@
 import React, { useContext, useMemo } from 'react';
 
 import { createUseStyles } from 'react-jss';
-import { get } from 'lodash';
+import get from 'lodash.get';
 
 import { Typography } from '@welovedevs/ui';
 
@@ -22,9 +22,9 @@ const useStyles = createUseStyles(styles);
 export const UserInformations = () => {
     const { data } = useContext(DeveloperProfileContext);
     const [additionalNodes] = useAdditionalNodes('banner.userInformations', null);
+    const [afterName] = useAdditionalNodes('banner.name.after', null);
     const [isEditing] = useIsEditing();
     const [showContactInformations] = useOptions('showContactInfos', false);
-    console.log({ showContactInformations });
     const contactInformations = useMemo(
         () =>
             Object.entries(CONTACT_INFOS_DATA).reduce(
@@ -45,18 +45,19 @@ export const UserInformations = () => {
     return (
         <div className={classes.container}>
             <Avatar src={data.basics?.picture} />
-            <Column customClasses={{ container: classes.textColumn }}>
+            <Column classes={{ container: classes.textColumn }}>
                 <Typography
-                    customClasses={{
+                    classes={{
                         container: classes.name
                     }}
                     variant="h3"
                     component="h3"
                 >
                     {data.basics?.name}
+                    {afterName}
                 </Typography>
                 <Typography
-                    customClasses={{
+                    classes={{
                         container: classes.description
                     }}
                     component="h4"

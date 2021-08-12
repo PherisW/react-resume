@@ -1,10 +1,10 @@
 import React, { useCallback, useState } from 'react';
 import { FormattedMessage } from 'react-intl';
 import { createUseStyles } from 'react-jss';
-import isArray from 'lodash/isArray';
-import mergeWith from 'lodash/mergeWith';
-import omit from 'lodash/omit';
-import cloneDeep from 'lodash/cloneDeep';
+import isArray from 'lodash.isarray';
+import mergeWith from 'lodash.mergewith';
+import omit from 'lodash.omit';
+import cloneDeep from 'lodash.clonedeep';
 import download from 'downloadjs';
 import { Button } from '@welovedevs/ui';
 
@@ -15,8 +15,7 @@ import { ReactComponent as SaveIcon } from './package/assets/icons/drop_file.svg
 import { styles } from './app_styles';
 
 const useStyles = createUseStyles(styles);
-const mergeFunction = (objValue, srcValue, key) => {
-    console.log({ objValue, srcValue, key });
+const mergeFunction = (objValue, srcValue) => {
     if (!objValue || isArray(objValue)) {
         return srcValue;
     }
@@ -55,7 +54,7 @@ function App() {
             onEdit={onEdit}
             onCustomizationChanged={onCustomizationChanged}
             options={{
-                // locale: 'tr',
+                locale: 'en',
                 // side: 'back',
                 apiKeys: {
                     giphy: process.env.REACT_APP_GIPHY
@@ -66,8 +65,10 @@ function App() {
                 },
                 // dismissFooter : true
                 // showContactInfos: true,
-                customization
-                // maxCardsPerRow: 3
+                // maxSkills: 6,
+                customization,
+                disableSortableExperience: false,
+                maxCardsPerRow: 3
             }}
             additionalNodes={{
                 banner: {
